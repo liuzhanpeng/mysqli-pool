@@ -33,7 +33,7 @@ class Mysql
         return $pool->getConfig();
     }
 
-    static function defer(string $name, $timeout = null): ?MysqlPool
+    static function defer(string $name, $timeout = null): ?Client
     {
         $pool = static::getInstance()->pool($name);
         if ($pool) {
