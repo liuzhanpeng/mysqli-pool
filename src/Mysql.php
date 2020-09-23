@@ -37,7 +37,7 @@ class Mysql
     {
         $pool = static::getInstance()->pool($name);
         if ($pool) {
-            return $pool::defer($timeout);
+            return $pool->defer($timeout);
         } else {
             return null;
         }
