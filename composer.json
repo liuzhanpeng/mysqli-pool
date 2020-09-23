@@ -1,5 +1,5 @@
 {
-    "name": "easyswoole/mysqli-pool",
+    "name": "liuzhanpeng/mysqli-pool",
     "type": "library",
     "description": "An efficient swoole framework",
     "keywords": [
